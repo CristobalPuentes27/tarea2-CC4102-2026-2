@@ -1,4 +1,4 @@
 # tarea2-CC4102-2026-2
-El archivo datos.bin contiene los datos de temperatura que deben cargar en sus árboles B y B^epsilon . El archivo contiene 67 millones de pares numéricos, conformados por una llave (int de 4 bytes, representando el segundo en que se tomó la medición de temperatura) y un valor (float de 4 bytes, representando la temperatura medida en el instante dado).
+El presente repositorio muestra los datos que se deben usar para la Tarea 2 de CC4102 del semestre de primavera del 2026. Los datos se encuentran en la seccion de release
 
-El archivo datos_sample.txt guarda los primeros 50 pares llave-valor en forma de texto, para que puedan verificar que están cargando los datos binarios correctamente.
+Datos obtenidos en el [siguiente enlace](https://github.com/CristobalPuentes27/tarea2-CC4102-2026-2/releases), medidos una vez por minuto en la estación Quinta Normal en Santiago, entre enero 2019 y julio 2025. Los datos fueron interpolados y se les agregó ruido gaussiano, para simular que las mediciones ocurrieran una vez por segundo.
